@@ -364,6 +364,9 @@
   - nmap -sU -sV -A -T4 -v -oN udp.txt 
  - **Snow**
   - ./snow -C -p "magic" output.txt  
+  - snow -C -m "Secret Text Goes Here!" -p "magic" readme.txt readme2.txt
+    • -m → Set your message
+    • -p → Set your password
 - **Rainbowcrack**
   - Use Winrtgen to generate a rainbow table
   - Launch RainbowCrack
